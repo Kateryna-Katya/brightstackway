@@ -1,0 +1,84 @@
+@import url('./styles.css');
+
+.background {
+    text-align: left;
+background: #f7f7f7;
+color: #0d1b2a;
+}
+
+.privacy-title {
+font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1.2;
+    color: #0d1b2a;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.policy-subtitle {
+font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.policy-site {
+    word-break: break-all;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.policy-link {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+
+}
+
+.break {
+    word-break: break-all;
+}
+
+.policy-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.underline {
+    font-weight: 700;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+
+.policy-span {
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 1440px) {
+.policy-container{
+    padding-right: 170px;
+    padding-left: 170px;
+}
+.privacy-title{
+    font-size: 48px;
+}
+.policy-subtitle{
+    font-size: 28px;
+}
+}
