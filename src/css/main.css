@@ -168,3 +168,28 @@ min-height: 178px;
 font-size: 20px;
 }
 }
+/* CTA */
+.cta-section{
+    background-image: url("/img/cta/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.cta-title{
+    text-align: center;
+}
+.cta-link{
+    margin-top: 48px;
+}
+@media only screen and (min-width: 1440px) {
+.cta-section {
+        background-image: url("/img/cta/desk.png");
+}
+.cta-link {
+        margin-top: 80px;
+        margin-left: auto;
+    }
+.mob{
+    display: none;
+}
+}
