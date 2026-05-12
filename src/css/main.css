@@ -142,3 +142,29 @@ font-family: "Nunito", sans-serif;
     font-size: 20px;
  }
 }
+/* Testimonials */
+.my-swiper .swiper-slide{
+    border: 1px solid #a78bfa;
+        border-radius: 16px;
+        padding: 16px;
+}
+.author{
+    margin-top: 8px;
+        font-weight: 500;
+        font-size: 18px;
+        text-align: right;
+        color: #5cf0b0;
+}
+@media only screen and (min-width: 1440px) {
+ .my-swiper .swiper-wrapper{
+    justify-content: center;
+    gap: 32px;
+ }
+ .my-swiper .swiper-slide {
+width: 352px;
+min-height: 178px;
+ }
+.author {
+font-size: 20px;
+}
+}
